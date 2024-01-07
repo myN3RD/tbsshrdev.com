@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai&family=Archivo+Black&family=Be+Vietnam+Pro&family=Heebo&family=MuseoModerno:wght@500&family=Noto+Sans+Multani&family=Poppins&family=Questrial&display=swap");
+* {
+  background-color: rgb(254 254 254);
+  margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.nav-container {
+  /* border: 1px solid blue; */
+  background-color: transparent;
+  width: 45%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* ---------- NAVBAR ---------- */
+ul {
+  /* border: 1px solid red; */
+  background-color: transparent;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+
+  /* border: 5px solid transparent; */
+}
+
+li {
+  /* border: 1px solid red; */
+  background-color: transparent;
+  list-style: none;
+  display: block;
+  margin: 40px 6%;
+  font-size: 25px;
+  font-weight: bold;
+  /* border: 5px solid transparent; */
+  cursor: pointer;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+li:hover {
+  opacity: 60%;
+}
+
+#hamburger-menu {
+  margin-top: 30px;
+  margin-left: 100px;
+  height: 50px;
+  width: auto;
+  position: absolute;
+  background-color: transparent;
+}
+/* DONE */
+.big-nav-container-header {
+  /* border: 1px solid blue; */
+  height: 500px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 522px;
+}
+
+.nav-container-header {
+  /* border: 1px solid blue; */
+  background-color: transparent;
+  width: 32%;
+  position: absolute;
+ /* right: 10.5%; */
+  left: 59.5%;
+  font-size: 100px;
+  font-weight: 900;
+  color: rgb(3, 11, 16);
+}
+
+.header-button-container {
+  /* border: 1px solid red; */
+  /* position: absolute; */
+  background-color: transparent;
+  height: 80px;
+  width: 90%;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 32rem;
+}
+
+#first-button-top {	
+  margin-left: 45%;
+}
+
+.button-top {
+  background-color: rgb(19 21 31);
+  color: rgb(254 254 254);
+  font-size: 20px;
+  padding: 15px 40px;
+  border-radius: 40px;
+  /* position */
+  margin-left: 1%;
+}
+
+.button-top:hover {
+  background-color: rgb(254 254 254);
+  color: rgb(19 21 31);
+  border: 2px solid rgb(19 21 31);
+  cursor: pointer;
+}
+
+.main-image-container {
+  /* border: 2px solid blue; */
+  background-image: url(images/main-image.jpg);
+  margin-top: -250px;
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 0, 0, 0) 0%,
+      rgb(255, 255, 255) 100%
+    ),
+    url(images/main-image.jpg);
+}
+
+#hyach {
+  /* border: 5px solid blue; */
+  background-color: transparent;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "MuseoModerno", cursive;
+  font-size: 300px;
+  color: rgb(3, 11, 16);
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 60px;
+}
+
+/* ---------- */
+hr {
+  margin-top: 7rem;	
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.haedliner-container {
+  margin-left: 25%;
+  margin-right: 5%;
+}
+
+.haedliner-container p {
+  /* border: 2px solid blue; */
+  font-size: 100px;
+  color: black;
+  font-weight: 800;
+  margin: 40px;
+  font-family: "Questrial", sans-serif;
+}
+/* DONE */
+.big-container {
+  /* border: 2px solid blue; */
+  margin-left: 25%;
+  margin-right: 0%;
+  margin-bottom: 5%;
+}
+
+.small-container {
+  /* border: 1px solid red; */
+  display: inline-block;
+  width: 600px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 35px;
+}
+
+p {
+  padding-top: 40px;
+  font-size: 25px;
+  color: rgb(141 141 141);
+}
+.small-container hr {
+  margin-left: 0;
+  height: 1px;
+  background-color: rgb(157 157 157);
+  color: rgb(157 157 157);
+}
+
+/* ---------- cta-container ---------- */
+
+.cta-container {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 750px;
+  font-size: 50px;
+}
+
+.cta-container-distance-bottom {
+  padding-bottom: 20px;
+}
+
+.black-container {
+  background-color: rgb(19 21 31);
+  color: rgb(254 254 254);
+  height: 750px;
+  width: 34%;
+  float: left;
+}
+
+#all-solutions-button {
+  background-color: rgb(19 21 31);
+  color: rgb(254 254 254);
+  border: 2px solid rgb(254 254 254);
+  font-size: 20px;
+  padding: 15px 40px;
+  border-radius: 40px;
+  /* position */
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+#all-solutions-button:hover {
+  background-color: rgb(254 254 254);
+  color: rgb(19 21 31);
+}
+
+.black-container h1 {
+  background-color: rgb(19 21 31);
+  padding: 5% 20% 0 10%;
+  font-size: 70px;
+}
+
+.black-container p {
+  background-color: rgb(19 21 31);
+  color: rgb(254 254 254);
+  font-size: 22px;
+
+  /* position */
+  margin-top: 285px;
+  margin-left: 10%;
+}
+
+.orange-container {
+  color: rgb(254 254 254);
+  height: 750px;
+  /* background-color: orange; */
+  width: 33%;
+  float: left;
+  background-size: cover;
+  background-position: 100% 15%; 
+  background-image: url(images/orange.jpg);
+}
+
+.orange-container h2 {
+  background-color: transparent;
+  padding-left: 15%;
+  /*margin-top: 181px; /*OLD*/
+  margin-top: 9rem;
+  /* margin-top: 645px; NOT RLY VISIBEL LIKE THIS */
+  font-size: 55px;
+}
+
+.green-container {
+  color: rgb(254 254 254);
+  height: 750px;
+  background-color: rgb(0, 70, 22);
+  width: 33%;
+  float: left;
+  background-size: cover;
+  background-position: 100% 40%;  
+  /* background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(images/green.jpg); */
+  background-image: url(images/green.jpg);
+}
+
+.green-container h2 {
+  background-color: transparent;
+  padding-left: 15%;
+  /*margin-top: 181px; /*OLD*/
+  margin-top: 9rem;
+  /* margin-top: 595px; NOT RLY VISIBEL LIKE THIS */
+  font-size: 55px;
+}
+
+.green-container p {
+  background-color: transparent;
+
+  color: rgb(254 254 254);
+  padding: 3% 0 5% 15%;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+/* #orange-img {
+  width: 33%;
+  margin-left: 33%;
+
+  height: 700px;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url(images/orange.jpg);
+  padding: 0;
+  margin: 0;
+}
+
+#green-img {
+  width: 33%;
+  height: 700px;
+  object-fit: cover;
+  background-size: cover;
+} */
+
+/* ---------- POPULAR DESTINATIONS ---------- */
+
+.popular-destinations {
+  font-size: 50px;
+  margin: 10% 10% 0% 10%;
+}
+
+.popular-destinations-container-big {
+  /* border: 1px solid green; */
+  height: 600px;
+  margin: 2% 10% 1% 10%;
+}
+
+.popular-destinations-container-left {
+  background-image: url(images/naples.jpg);
+  background-position: 100% 25%;
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-size: cover;
+  border-bottom-right-radius: 50px;
+}
+
+.popular-destinations-container-right {
+  /* border: 1px solid blue; */
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.popular-destinations-container-small {
+  display: inline-block;
+  /*border: 1px solid red;*/
+  height: 300px;
+  width: 100%;
+}
+
+.popular-destinations-container-mini {
+  /* border: 1px solid blue; */
+  height: 300px;
+  width: 49%;
+  float: left;
+}
+
+.popular-destinations-container-mini h1 {
+  margin-top: 35px;
+  padding-left: 50px;
+}
+
+.popular-destinations-container-mini p {
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 20px;
+  color: black;
+}
+.popular-destinations-container-mini hr {
+  margin-left: 50px;
+  margin-top: 0;
+  height: 1px;
+  width: 80%;
+  background-color: rgb(157 157 157);
+  color: rgb(157 157 157);
+}
+
+.footer {
+  margin: 12% 0 0 0;
+  padding: 0;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(14, 15, 21);
+  color: rgb(254 254 254);
+}
+
+#hyach-footer {
+  /* border: 5px solid blue; */
+  /* font-family: "Courier New", Courier, monospace; */
+  background-color: rgb(14, 15, 21);
+  font-family: "MuseoModerno", cursive;
+  font-size: 65px;
+  color: rgb(254 254 254);
+  /* position: absolute;
+  margin-top: 200px; */
+  padding-left: 60px;
+}
+
+.footer h1 {
+  /* border: 1px solid red; */
+  font-size: 90px;
+  background-color: rgb(14, 15, 21);
+  padding: 50px 0px 0px 0px;
+  width: 600px;
+  margin-left: 60%;
+}
+
+.footer p {
+  font-size: 20px;
+  background-color: rgb(14, 15, 21);
+  color: rgb(254 254 254);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 2340px) {
+  #first-button-top {
+  margin-left: 40%;
+ }
+}
+
+@media screen and (max-width: 2140px) {
+ #first-button-top { 
+ margin-left: 35%;
+ }
+}
+
+@media screen and (max-width: 1980px) {
+ #first-button-top {
+ margin-left: 30%;
+ }
+}
+
+@media screen and (max-width: 1840px) {
+ #first-button-top {
+ margin-left: 25%;
+ } 
+}
+
+@media screen and (max-width: 1710px) {
+ #first-button-top {
+ margin-left: 20%;
+ }
+}
+
+@media screen and (max-width: 1600px) {
+ #first-button-top {
+ margin-left: 15%;
+ }
+}
+
+@media screen and (max-width: 1100px) {
+ .popular-destinations-container-left { 
+ width: 100%;
+ }
+}
+
+@media screen and (max-width: 1100px) {
+ .popular-destinations-container-right {
+ /* border: 1px solid red; */
+ display: block;
+ width: 100%;
+ margin: 5% 0 10% -6%;
+ }
+}
+
+@media screen and (max-width: 1100px) {
+ .popular-destinations-container-big {
+ /* border: 1px solid green; */
+ display: block;
+ float: left;
+ }
+}
+
+@media screen and (max-width: 1100px) {
+ .footer {
+ margin: 125% 0 0 0;
+ }
+}
+
+@media screen and (max-width: 2100px) {
+ .nav-container-header {
+ width: 37%;
+ }
+}
+
+@media screen and (max-width: 1894px) {
+ .nav-container-header {
+ left: 15%;
+ top: 30%;
+ width: 80%;
+ }
+}

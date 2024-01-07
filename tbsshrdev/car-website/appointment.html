@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="ferrari" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="prices.html">Prices</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li>
+            <a href="appointment.html" class="highlight">Book Appointment</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- CONTENT -->
+      <div class="contentAppointment">
+        <div>
+          <h1 id="appointment">Make an Appoinment</h1>
+          <form action="/" method="POST">
+            <div>
+              <!-- <label>First Name:</label> -->
+              <input
+                class="input"
+                type="text"
+                name="firstname"
+                placeholder="First Name"
+              />
+            </div>
+            <div>
+              <!-- <label>Last Name:</label> -->
+              <input
+                class="input"
+                type="text"
+                name="lastname"
+                placeholder="Last Name"
+              />
+            </div>
+            <div>
+              <!-- <label>Phone:</label> -->
+              <input
+                class="input"
+                type="tel"
+                name="phone"
+                placeholder="Phone"
+              />
+            </div>
+            <div>
+              <!-- <label>Email:</label> -->
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+            </div>
+            <div>
+              <input type="date" />
+            </div>
+            <!-- <textarea
+              type="text"
+              name="postBody"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea> -->
+            <!-- the solution for a multiline "input" -->
+            <div class="button">
+              <button type="submit">Submit</button>
+            </div>
+            <!-- type="submit "-->
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- FOOTER -->
+    <footer>
+      <ul>
+        <li>
+          <strong>Our Location</strong>
+          <p>15 Street Pennsilvania</p>
+        </li>
+        <li>
+          <strong>Phone</strong>
+          <p>+61 400 7799 00</p>
+        </li>
+        <li>
+          <strong>Email</strong>
+          <p>automotive@carservice.com</p>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Multani&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.header {
+  min-height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(images/andrea-davis-IWfe63thJxk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Top Bottom , left & right*/
+  padding: 20px 5%;
+}
+
+.nav-links li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-links li a:hover  {
+ opacity: 50%;
+}
+
+.register-btn {
+  text-decoration: none;
+  background: #fff;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.register-btn:hover {
+  background: #dcdcdc;
+}
+
+.container {
+  padding: 0 7%;
+}
+
+.header h1 {
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+  padding-top: 22%;
+}
+
+.search-bar {
+  background: #fff;
+  width: 55%;
+  margin: 30px auto;
+  padding: 6px 10px 6px 30px;
+  border-radius: 50px;
+}
+
+.search-bar form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.search-bar form input {
+  display: block;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.search-bar form button {
+  background: #ff5361;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-bar form button:hover {
+  background: #b73b45;
+}
+
+.search-bar form button img {
+  width: 18px;
+  height: auto;
+  margin-top: 7px;
+}
+
+.search-bar form img:hover {
+  background-color: #a2363f;
+}
+
+.location-input {
+  flex: 1;
+}
+
+.search-bar form label {
+  font-weight: 600;
+}
+
+/* .search {
+  height: 20px;
+  width: auto;
+  color: #fff;
+} */
+
+/* ---------- exclusives ---------- */
+
+.sub-title {
+  margin: 60px 0 20px;
+  /* margin-right: 45px; */
+  font-size: 34px;
+  font-weight: 600;
+  color: #333;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 10px;
+}
+
+.exclusives {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 425px));
+  grid-gap: 45px;
+  font-size: 30px;
+}
+
+.exclusives div img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+}
+
+.exclusives div {
+  position: relative;
+}
+
+.exclusives div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+/* ---------- Trending places ---------- */
+
+.trending {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 300px));
+  grid-gap: 45px;
+  margin-bottom: 30px;
+}
+
+.trending div img {
+  width: 100%;
+  border-radius: 10px;
+}
+.trending h3 {
+  font-weight: 800;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+/* cta */
+
+.cta {
+  margin: 80px 0;
+  background-image: linear-gradient(to right, #3f2321, transparent),
+    url(images/andrea-davis-7450hH--84M-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5%;
+  color: #fff;
+}
+
+.cta h3 {
+  font-size: 4vw;
+  line-height: 5.3vw;
+  font-weight: 500;
+}
+
+.cta p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.cta-btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background: #ff5361;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.cta-btn:hover {
+  background: #b73b45;
+}
+
+/* -------- travellers stories ---------- */
+.stories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(950px, 1000px));
+  grid-gap: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.stories div img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+}
+
+.stories div {
+  position: relative;
+  text-align: center;
+}
+
+.stories p {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 66px;
+}
+
+.start-btn {
+  text-decoration: none;
+  background: #ff5361;
+  color: #fff;
+  width: 80%;
+  max-width: 350px;
+  display: block;
+  text-align: center;
+  margin: 60px auto;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.start-btn:hover {
+  background: #b73b45;
+  color: #fff;
+}
+
+/* ---------- ABOUT FIND STAY ---------- */
+
+.about-msg h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.about-msg {
+  margin: 80px 0;
+  color: #333;
+  font-size: 17px;
+  hyphens: auto;
+  text-align: justify;
+}
+
+/* ---------- FOOTER ---------- */
+
+.footer img {
+  height: 50px;
+  width: auto;
+}
+
+.footer {
+  margin: 80px 0 10px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0 10px;
+}
+
+.footer .icon {
+  color: #999;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  height: 40px;
+  width: auto;
+}
+
+.footer hr {
+  background: #999;
+  height: 1px;
+  width: 100%;
+  border: 0;
+  margin: 20px 0;
+}
+
+.footer p {
+  padding-bottom: 15px;
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  background: #fff;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -12px;
+  border-radius: 2px;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+@media (max-width: 700px) {
+  .logo {
+    position: fixed;
+    top: 4%;
+    left: 7%;
+  }
+  nav {
+    position: relative;
+    top: 0;
+    z-index: 100;
+    display: inline-block;
+    width: 100%;
+    padding: 40px 7% 0;
+    background: #00000086;
+    text-align: center;
+  }
+  nav .nav-links li {
+    margin: 12px 0;
+    display: block;
+  }
+  .active::after {
+    left: -40px;
+    transform: translate(0, 50%);
+    bottom: 50%;
+  }
+
+  /* .register-btn {
+    margin: 15px 0 30px;
+    display: inline-block;
+  } */
+}
+
+@media (max-width: 1365px) {
+  .search-bar form {
+    font-size: 15px;
+  }
+  .search-bar form input {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .nav-links li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .register-btn {
+    font-size: 13px;
+  }
+}
+
+/* @media (max-width: 2500px) {
+ .stories {
+  grid-template-columns: repeat(auto-fit, minmax(700px, 800px));
+  }
+} */
+
+@media (max-width: 1150px) {
+  .stories {
+    grid-template-columns: repeat(auto-fit, minmax(375px, 400px));
+  }
+}
+
+@media (max-width: 1250px) {
+  .stories p {
+    font-size: 30px;
+  }
+}
+
+ @media (max-width: 600px) {
+  .stories {
+    grid-template-columns: repeat(auto-fit, minmax(375px, 400px));
+  }
+} 
+
+@media (max-width: 600px) {
+  .stories p {
+    font-size: 25px;
+  }
+}
+
+/* @media (max-width: 1128px) {
+ .stories {
+  width: 100%;
+ } 
+} */

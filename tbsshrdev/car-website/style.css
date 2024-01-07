@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.skyline {
+  background-image: url(images/jonathan-gallegos-5FGqfV6UjzI-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+}
+
+.porsche {
+  background-image: url(images/taylor-smith-qIiZW1hS-g8-unsplash.jpg);
+  background-position: bottom 0px right 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.porsche2 {
+  background-image: url(images/idzard-schiphof-E0g3G8bhfjw-unsplash.jpg);
+  background-position: bottom -0px right 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ferrari {
+  background-image: url(images/jeff-smith-Wg-2kBVND3c-unsplash.jpg);
+  background-position: bottom -0px right 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  font-weight: bold;
+  min-height: calc(100vh - 102px);
+}
+
+.container-nav {
+  margin-left: 0;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  /* margin-left: 55%; */
+  font-size: 25px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin-left: 60%;
+  margin-right: 5%;
+}
+
+/* DONE */
+nav li a {
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.navPrices {
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: rgb(218, 218, 218);
+}
+
+.container2 {
+  margin-left: 6%;
+  margin-top: 9%;
+  max-width: 100%;
+  width: 1000px;
+}
+
+#appointment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerPrices {
+  margin-left: 0;
+  margin-top: 0;
+  max-width: 100%;
+  width: 1000px;
+  color: black;
+}
+
+.container3 {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content {
+  font-size: 2.5rem;
+  /* margin: auto; */
+  margin-left: 0;
+  /* margin-top: 5rem; */
+  max-width: 100%;
+}
+
+.contentAppointment {
+  margin-top: 4rem;
+  font-size: 3rem;
+  margin-left: 0;
+  max-width: 100%;
+  color: rgb(0, 185, 209);
+}
+
+.contentPrices {
+  font-size: 2.5rem;
+  /* margin: auto; */
+  margin-left: 3%;
+  max-width: 100%;
+}
+
+.backgroundPrices {
+  background-color: rgba(127, 255, 212, 0.454);
+  width: 500px;
+}
+
+.content h1 {
+  color: rgb(0, 185, 209);
+  margin-bottom: 0;
+}
+
+.highlight {
+  background-color: rgb(0, 185, 209);
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.highlight:hover {
+  background-color: rgb(0, 125, 141);
+  transform: scale(0.7); /* WHY GEHT NICHT?? */
+}
+
+/* FORM */
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 35px;
+}
+
+label {
+  padding: 100px;
+  /* margin: 100px; */
+}
+
+/* DONE */
+input {
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 10px;
+  /* border: 2px solid; */
+  border: none;
+  margin: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 2rem;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 400px;
+  color: aliceblue;
+  background-color: rgb(0, 185, 209);
+}
+
+button:hover {
+  background-color: rgb(0, 125, 141);
+}
+
+/* DONE */
+.button {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: block;
+  bottom: 0;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: black;
+  margin: 0; /* bottom 0 */
+  padding: 0;
+  bottom: 0;
+}
+
+/* TEXT */
+footer ul li {
+  margin-top: 20px; /* Trick 17  footer bis bottom 0 */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+footer strong {
+  color: rgb(0, 185, 209);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* DONE */
+footer p {
+  margin-top: 5px;
+}
+
+/* REPSONSIVE */
+@media screen and (max-width: 1700px) {
+  nav ul {
+    margin-left: 25%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* nav {
+    flex-direction: column;
+    justify-content: center;
+  } */
+
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* nav li {
+    flex-direction: column;
+  } */
+
+  /* nav li:not(:last-child) {
+    margin-bottom: 1rem;
+  } */
+
+  nav .highlight {
+    display: none;
+  }
+
+  footer ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer li {
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
+/* DATE INPUT */
+::-webkit-datetime-edit {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
