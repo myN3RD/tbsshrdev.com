@@ -214,6 +214,37 @@
 
                     </article> 
 
+                    <article class="popular__card swiper-slide">
+                    <div class="shape shape__smaller"></div>
+
+                      <h1 class="popular__title">Porsche 911</h1>
+                      <h3 class="popular__subtitle">2014</h3>
+                      
+                      <img src="/img/aston-martin.png" class="popular__img">
+                      
+                        <div class="popular__data">
+                          <div class="popular__data-group">
+                            <img src="/img/dashboard-3-line.png"> 4.8sec
+                          </div>
+                          <div class="popular__data-group">
+                            <img src="/img/dashboard-2-line.png"> 289 Km/h
+                          </div>
+                          <div class="popular__data-group">
+                            <img src="/img/funds-box-line.png"> 350 PS
+                          </div> 
+                          <div class="popular__data-group">
+                            <img src="/img/git-fork-line.png"> Rear-Engine
+                          </div> 
+                        </div>
+                        
+                        <h3 class="popular__price">90.000,-</h3>
+        
+                        <button class="button popular__button">
+                          <img src="/img/shopping-bag-3-line.png">
+                        </button> 
+
+                    </article> 
+
                   <article class="popular__card swiper-slide">
                     <div class="shape shape__smaller"></div>
 
@@ -343,34 +374,49 @@
                 <div class="featured__container container">
                   <ul class="featured__filters">
                     <li>
-                      <button class="featured__item">
+                      <button class="featured__item active-featured" data-filter="all">
                         <span>All</span>
                       </button>
                     </li>
                     <li>
-                      <button class="featured__item">
-                        <img src="/img/ferrari-logo.png">
+                      <button class="featured__item" data-filter=".ferrari">
+                        <img src="/img/Daco_3568441.png">
                       </button>
                     </li>
                     <li>
-                      <button class="featured__item">
+                      <button class="featured__item" data-filter=".lamborghini">
                         <img src="/img/lamborghini.png">
                       </button>
                     </li>
                     <li>
-                      <button class="featured__item">
+                      <button class="featured__item" data-filter=".aston">
+                        <img src="/img/aston-martin-logo.png">
+                      </button>
+                    </li>
+                    <li>
+                      <button class="featured__item" data-filter=".porsche">
                         <img src="/img/logo1.png">
                       </button>
                     </li>
                     <li>
-                      <button class="featured__item">
+                      <button class="featured__item" data-filter=".bentley">
+                        <img src="/img/bentley-logo.png">
+                      </button>
+                    </li>
+                    <li>
+                      <button class="featured__item" data-filter=".bmw">
                         <img src="/img/logo5.png">
+                      </button>
+                    </li>
+                    <li>
+                      <button class="featured__item" data-filter=".dodge">
+                        <img src="/img/dodge-512.png">
                       </button>
                     </li>
                   </ul>
 
                   <div class="featured__content grid">
-                    <article class="featured__card">
+                    <article class="featured__card mix ferrari">
                       <div class="shape shape__smaller"></div>
 
                       <h1 class="featured__title">Porsche</h1>
@@ -385,7 +431,7 @@
                       </button>
                     </article>
 
-                    <article class="featured__card">
+                    <article class="featured__card mix lamborghini">
                       <div class="shape shape__smaller"></div>
 
                       <h1 class="featured__title"></h1>
@@ -400,7 +446,37 @@
                       </button>
                     </article>
 
-                    <article class="featured__card">
+                    <article class="featured__card mix bentley">
+                      <div class="shape shape__smaller"></div>
+
+                      <h1 class="featured__title"></h1>
+
+                      <h3 class="featured__subtitle">TEST</h3>
+
+                      <img src="/img/continental-gt.png" class="featured__img">
+
+                      <h3 class="featured__price"></h3>
+                      <button class="button featured__button">
+                        <img src="/img/shopping-bag-3-line.png" alt="">
+                      </button>
+                    </article>
+
+                    <article class="featured__card mix aston">
+                      <div class="shape shape__smaller"></div>
+
+                      <h1 class="featured__title"></h1>
+
+                      <h3 class="featured__subtitle">TEST</h3>
+
+                      <img src="/img/aston-martin.png" class="featured__img">
+
+                      <h3 class="featured__price"></h3>
+                      <button class="button featured__button">
+                        <img src="/img/shopping-bag-3-line.png" alt="">
+                      </button>
+                    </article>
+
+                    <article class="featured__card mix porsche">
                       <div class="shape shape__smaller"></div>
 
                       <h1 class="featured__title"></h1>
@@ -415,12 +491,12 @@
                       </button>
                     </article>
 
-                    <article class="featured__card">
+                    <article class="featured__card mix bmw">
                       <div class="shape shape__smaller"></div>
 
                       <h1 class="featured__title"></h1>
 
-                      <h3 class="featured__subtitle">TEST</h3>
+                      <h3 class="featured__subtitle">Dodge Charger SRT Hellcat (2015)</h3>
 
                       <img src="/img/kisspng-bmw-m3-car-honda-mercedes-benz-2-7-dodge-demon-concept-latest-news-features-5b8951575c3eb8.2807160015357259113778.png" class="featured__img">
 
@@ -430,7 +506,7 @@
                       </button>
                     </article>
 
-                    <article class="featured__card">
+                    <article class="featured__card mix">
                       <div class="shape shape__smaller"></div>
 
                       <h1 class="featured__title"></h1>
@@ -450,18 +526,136 @@
 
             <!--==================== OFFER ====================-->
             <section class="offer section">
-                
+                <div class="offer__container container grid">
+                  <img class="offer__bg" src="/img/peter-broomfield-m3m-lnR90uM-unsplash.jpg">
+                  <div class="offer__data">
+                    <h2 class="section__title offer__title">
+                      Do You Want To Receive Special Offers?
+                    </h2>
+
+                    <p class="offer__description">
+                      xxxxxxxxx and subcribe to our mailing list.
+                    </p>
+
+                    <a href="#" class="button">Subscribe</a>
+                  </div>
+                </div>
             </section>
 
             <!--==================== LOGOS ====================-->
             <section class="logos section">
-                
+                <div class="logos__container container grid">
+                  <div class="logos__content">
+                    <img src="/img/logo5.png" alt="" class="logos__img">
+                  </div>
+                  <div class="logos__content">
+                    <img src="/img/lamborghini.png" alt="" class="logos__img">
+                  </div>
+                  <div class="logos__content">
+                    <img src="/img/PikPng.com_aston-martin-logo-png_2172663.png" alt="" class="logos__img">
+                  </div>
+                  <div class="logos__content">
+                    <img src="/img/Daco_3568441.png" alt="" class="logos__img">
+                  </div>
+                  <div class="logos__content">
+                    <img src="/img/dodge-512.png" alt="" class="logos__img">
+                  </div>
+                  <div class="logos__content">
+                    <img src="/img/logo1.png" alt="" class="logos__img">
+                  </div>
+                  <div class="logos__content">
+                    <img src="/img/bentley-logo.png" alt="" class="logos__img">
+                  </div>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer section">
-            
+            <div class="shape shape__big">
+              
+            </div>
+            <div class="shape shape__small">
+
+            </div>
+
+            <div class="footer__container container grid">
+              <div class="footer__content">
+                <a href="#" class="footer__logo">
+                  <img src="/img/steering-fill.png" alt="">ADRENALINE
+                </a>
+                <p class="footer__description">
+                  We offer a collection of the best cars of the most recognized brands in the world.  
+                </p>
+              </div>
+
+              <div class="footer__content">
+                <h3 class="footer__title">
+                  Company
+                </h3>
+
+                <ul class="footer__links">
+                  <li>
+                    <a href="#" class="footer__link">About</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Cars</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">History</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Shop</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer__content">
+                <h3 class="footer__title">
+                  Information
+                </h3>
+
+                <ul class="footer__links">
+                  <li>
+                    <a href="#" class="footer__link">Requests</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Find a Dealer</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Services</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer__content">
+                <h3 class="footer__title">
+                  Follow Us
+                </h3>
+
+                <ul class="footer__social">
+                  <a href="" target="_blank" class="footer__social-link">
+                    
+                  </a>
+                  <a href="" target="_blank" class="footer__social-link">
+
+                  </a>
+                  <a href="" target="_blank" class="footer__social-link">
+
+                  </a>
+                  <a href="" target="_blank" class="footer__social-link">
+
+                  </a>
+                </ul>
+              </div>
+            </div>
+
+            <span class="footer__copyright">
+              &#169 Tobias Schröder. All rights reserved 2024
+            </span>
         </footer>
 
 
@@ -475,7 +669,7 @@
         <script src="/js/swiper-bundle.min.js"></script>
 
         <!--=============== MIXITUP JS ===============-->
-        <script src=""></script>
+        <script src="/js/mixitup.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="/js/main.js"></script>
