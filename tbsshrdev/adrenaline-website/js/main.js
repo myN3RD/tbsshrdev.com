@@ -1,9 +1,9 @@
 /*=============== SHOW MENU ===============*/
-const navMenu = document.getElementById('nav-menu'),
-navToggle = document.getElementById('nav-toggle'),
-navClose = document.getElementById('nav-close')
+const navMenu = document.getElementById('nav-menu');
+const navToggle = document.getElementById('nav-toggle');
+const navClose = document.getElementById('nav-close');
 
-/*========== MENU SHOW ==========*/
+/*========== NAV MENU SHOW ==========*/
 /* Validate if constante  exists */ 
 if(navToggle){
   navToggle.addEventListener('click', () => {
@@ -11,7 +11,7 @@ if(navToggle){
   });
 }
 
-/*========== MENU HIDDEN ==========*/
+/*========== NAV MENU HIDDEN ==========*/
 /* Validate if constante  exists */ 
 if(navClose){
   navClose.addEventListener('click', () => {
@@ -19,8 +19,9 @@ if(navClose){
   });
 }
 
+
 /*=============== REMOVE MENU MOBILE ===============*/
-const navLink = document.querySelectorAll('nav__link');
+const navLink = document.querySelectorAll('.nav__link');
 
 function linkAction(){
   const navMenu = document.getElementById('nav-menu');
