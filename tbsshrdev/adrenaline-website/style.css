@@ -165,7 +165,7 @@ img {
   transition:  .3s;
 }
 
-.nav__logo{
+.nav__logo img{
   font-size: 1.25rem;
 }
 
@@ -979,6 +979,8 @@ img {
   }
 }
 
+
+
 @media screen and (min-width: 767px){
   .section{
     padding: 7rem 0 2rem;
@@ -987,12 +989,10 @@ img {
   .nav{
     height: calc(var(--header-height) + 1.5rem);
   }
-
-  .nav__toogle,
-  .nac__close{
+  .nav__toggle,
+  .nav__close{
     display: none;
   }
-
   .nav__list{
     flex-direction: row;
     column-gap: 3rem;
@@ -1025,6 +1025,8 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
 
 /* For large devices */
 @media screen and (min-width: 1040px){
